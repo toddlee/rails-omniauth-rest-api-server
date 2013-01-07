@@ -59,6 +59,9 @@ GEM
       rack
     omniauth-facebook (1.4.1)
       omniauth-oauth2 (~> 1.1.0)
+    omniauth-facebook-access-token (0.1.1)
+      oauth2 (~> 0.8.0)
+      omniauth (~> 1.0)
     omniauth-oauth2 (1.1.1)
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
@@ -106,5 +109,6 @@ PLATFORMS
 DEPENDENCIES
   omniauth
   omniauth-facebook
+  omniauth-facebook-access-token
   rails (= 3.2.7)
   sqlite3
